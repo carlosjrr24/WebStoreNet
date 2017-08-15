@@ -1,0 +1,28 @@
+﻿@model WebStoreDataAcess.Product
+
+@{
+    ViewBag.Title = "MIProductView";
+
+}
+
+<h2>MIProductView</h2>
+
+    @section scripts
+    {
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/datatables")
+   
+<script type="text/javascript">
+   6:         $(document).ready(function () {
+   7:             $('#listar').DataTable({
+   8:                 "paging": true,
+   9:                 "recordsFiltered": 10,
+  10:                 "lengthChange": false,
+  11:                 "searching": true,
+  12:                 "ordering": true,
+  13:                 "info": true,
+  14:                 "autoWidth": false
+  15:             });
+  16:         });
+  17:     </script>
+  18: }
