@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "ViewPrueba";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+
+
+<h2>ViewPrueba</h2>
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" />
+<script src="~/Scripts/jquery-3.1.1.js"></script>
+<script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js">
+@*</script>
+
+<script type="text/javascript">*@
+
+    $.ajax({
+        url: '/api/Products',
+        method: 'get',
+        dataType: 'json',
+        success: function (data) {
+            //console.log(data);
+            $('#datatable').dataTable({
+                paging: true,
+                sort: true,
+                searching: true,
+                scrollY: 200,
+                data: data,
+                columns: [
+                    { 'data': 'Id' },
+                    { 'data': 'Name' },
+                    { 'data': 'Description' },
+                    { 'data': 'Stock' },
+                    { 'data': 'CategoriId' },
+                ]
+            });
+
+        }
+    });
+
+
+</script>
+
+<body style="font-family: Arial">
+    <form id="form1" runat="server">
+        <div style="width: 900px; border: 1px solid black; padding: 3px">
+            <table id="datatable">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Stock</th>
+                        <th>CategoryId</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Stock</th>
+                        <th>CategoryId</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </form>
+</body>
+
+

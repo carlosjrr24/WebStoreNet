@@ -7,3 +7,12 @@ C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreNet\WebStoreDataAcess\bin\D
 C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreNet\WebStoreDataAcess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreNet\WebStoreDataAcess\obj\Debug\WebStoreDataAcess.dll
 C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreNet\WebStoreDataAcess\obj\Debug\WebStoreDataAcess.pdb
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\bin\Debug\WebStoreDataAcess.dll.config
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\bin\Debug\WebStoreDataAcess.dll
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\bin\Debug\WebStoreDataAcess.pdb
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\bin\Debug\EntityFramework.dll
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\bin\Debug\EntityFramework.xml
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\obj\Debug\WebStoreDataAcess.dll
+C:\Users\carlos\Documents\GitHub\WebStoreNet\WebStoreDataAcess\obj\Debug\WebStoreDataAcess.pdb

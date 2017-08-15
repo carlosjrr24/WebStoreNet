@@ -21,5 +21,14 @@ namespace WebStoreNet.Controllers
 
             return View();
         }
+
+        public ActionResult Prueba()
+        {
+            ViewBag.Title = "Productos Page";
+
+            return View();
+        }
+
+
     }
 }
